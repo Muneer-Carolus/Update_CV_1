@@ -1,0 +1,53 @@
+// importing partials
+@import "partials/_layout.scss";
+
+// Importing fonts for site
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+// styling for navbar
+#navbar{
+    color: white;    
+    padding: 30px;
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 70px;
+        &:hover{
+            color: #1469AA;
+        }
+    }
+}
+
+
+// styling for headers and text
+h1{
+    color: #1469AA;
+    font-size: 60px;   
+}
+h2{
+    color: #1469AA;
+}
+
+
+// styling for cover
+.home{
+    margin-left: 150px;
+}
+
+// styling for personal details
+#personal-details{
+    background-image: url("../images/black-white-apple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;  
+    table{
+        color:red;
+    }
+}
+
